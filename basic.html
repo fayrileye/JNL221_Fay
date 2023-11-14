@@ -10,22 +10,28 @@
         <style>
         
             p {
-                color: gray;
+                color: #a9a9a9;
                 font-size: 16px;
                 font-family: 'Open Sans', serif;
                 width: 50%;
             }
 
-            #book{
-                border: pink;
+            H4 {
+                color: black;
+
 
             }
+
+            .book{ 
+                border: 6px dotted skyblue;
+             }
+  
 
 
             #quote {
                 color: gray;
                 font-style: italic;
-                border: solid lightskyblue 2px;
+               
             }
 
             #bargraph {
@@ -76,9 +82,9 @@
         
 
         <h2>My handles</h2>
-        <a href=https://twitter.com/RileyFay8> This is my Twitter/X account.</a>
+        <a href=https://twitter.com/RileyFay8 target="_blank"> This is my Twitter/X account.</a>
 
-        <p><a href="https://www.instagram.com/rileyyfay/">This is my Instagram account.</a>
+        <p><a href="https://www.instagram.com/rileyyfay/" target="_blank">This is my Instagram account.</a>
         <!-- Include: at least two handles for your social media accounts -->
         <!-- Tags to use: <p>, <a> -->
 
@@ -86,7 +92,7 @@
         <h2> ~ Challenge: Why is my text maroon? ~</h2>
         <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
        
-        <p>My text is maroon.</p>
+        <p>My text is gray.</p>
 
 
         <h2>My favorite meme</h2>
@@ -96,19 +102,19 @@
         <img src="JNL 221-meme.png" alt="an image of a photograph, from google" height="300px" width="400px">
 
     
-        <h2>Why I'm a great student</h2>
+        <h2>Why I'm a great student</h2><strong>
         <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
         <!-- Tags to use: <ul>, <li>, <strong> -->
         <ul>
             <li>I write assignments in my planner.</li>
             <li>I prioritize assignments.</li>
             <li>I work well under pressure.</li>
-        </ul>
+        </ul></strong>
         
     
         <h2>Top 3 most famous people from my hometown</h2>
         <ol>
-            <li>Chad Michael Murray</li>
+            <li><a href="https://www.google.com/search?q=chad+michael+murray&oq=chad+mic&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyDQgBEC4YgwEYsQMYgAQyBggCEEUYOTIKCAMQABixAxiABDIHCAQQABiABDIKCAUQLhixAxiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIKCAkQLhjUAhiABKgCALACAA&sourceid=chrome&ie=UTF-8"> Chad Michael Murray</a></li>
             <li>Jeffrey Jones</li>
             <li>Christine Baranski</li>
         </ol>
@@ -131,7 +137,8 @@
         <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
         <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
        <style type="#italic"></style>
-    <p>“They say it's good to let your grudges go, but I don't know, I'm quite fond of my grudge."</p>
+    <h3>Laine Moriaty</h3>
+    <p id="quote">“They say it's good to let your grudges go, but I don't know, I'm quite fond of my grudge."</p>
 
 
         <h2>These are more of my favorite books</h2>
@@ -139,13 +146,11 @@
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
       
        <p><ul>
-            <li>Big Little Lies</li>
-            <li>The Woman in Me</li>
-            <li>The Husband's Secret</li>
+            <li class="book">Big Little Lies</li>
+            <li class="book">The Woman in Me</li>
+            <li class="book">The Husband's Secret</li>
         </ul></p> 
-       <div style="border: 2px pink; width: 50%;">
-            </div>
-    
+       
 
         
 
@@ -159,6 +164,7 @@
         <h3>~ Challenge: A very simple bar graph ~</h3>
         <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
 
+<h4><p>My Bar Graph</p>
         <div id="bargraph">
             <h4>Length of bars</h4>
             <p class="bar_label">Longest</p>
@@ -166,7 +172,7 @@
             <p class="bar_label">Longer</p>
             <div id="longer"></div>
             <p class="bar_label">Long</p>
-            <div id="long"></div>
+            <div id="long"></h4>
         </div>
      
     </body>
