@@ -47,13 +47,6 @@ h4{
 	font-size: 50px;
 }
 
-h5{
-	border-style: solid;
-	border-color: black;
-	border-width: 100px;
-
-}
-
 img{
 
 	float: right;
@@ -62,9 +55,6 @@ img{
 
 } 
 
-H6{
-	float: right;
-}
 
 
 
@@ -83,10 +73,7 @@ H6{
  	margin-bottom: 30px;
  	margin-top: 30px;
  }
- iframe {
- 	min-width: 90%;
- 	margin-right: 10px;
- }
+
 
 .footer p {
 	background-color: hotpink;
@@ -102,7 +89,3 @@ H6{
 
  }
 
- img {
- 	float: unset;
-
-}
